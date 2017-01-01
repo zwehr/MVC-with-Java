@@ -9,4 +9,14 @@
     <welcome-file>default.htm</welcome-file>
     <welcome-file>default.jsp</welcome-file>
   </welcome-file-list>
+  <servlet>
+    <description></description>
+    <display-name>MovieController</display-name>
+    <servlet-name>MovieController</servlet-name>
+    <servlet-class>controller.MovieController</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>MovieController</servlet-name>
+    <url-pattern>/MovieIdeas.do</url-pattern>
+  </servlet-mapping>
 </web-app>
